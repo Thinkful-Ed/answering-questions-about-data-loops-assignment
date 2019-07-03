@@ -330,7 +330,7 @@ describe(`While loops`, () => {
     it(`returns 2 when item is at third position`, () => {
       expect(findMatchingIndex([0, 1, 'foo'], 'foo')).to.eql(2)
       expect(findMatchingIndex([11, 10, 9], 9)).to.eql(2)
-      expect(findMatchingIndex2([123, 456, 321, 890, 567], 321)).to.eql(2)
+      expect(findMatchingIndex([123, 456, 321, 890, 567], 321)).to.eql(2)
     })
   })
 
